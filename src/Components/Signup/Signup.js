@@ -38,7 +38,8 @@ export default function Signup() {
             className="input"
             type="text"
             id="fname"
-            name={username}
+            name="name"
+            value={username}
             onChange={(e)=>setUsername(e.target.value)}
             defaultValue=""
           />
@@ -49,7 +50,8 @@ export default function Signup() {
             className="input"
             type="email"
             id="fname"
-            name={email}
+            name="email"
+            value={email}
             onChange={(e)=>setEmail(e.target.value)}
             defaultValue=""
           />
@@ -60,7 +62,8 @@ export default function Signup() {
             className="input"
             type="number"
             id="lname"
-            name={phone}
+            name="phone"
+            value={phone}
             onChange={(e)=>setPhone(e.target.value)}
             defaultValue=""
           />
@@ -71,7 +74,8 @@ export default function Signup() {
             className="input"
             type="password"
             id="lname"
-            name={password}
+            name="password"
+            value={password}
             onChange={(e)=>setPassword(e.target.value)}
             defaultValue=""
           />
